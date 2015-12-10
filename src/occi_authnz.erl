@@ -111,7 +111,7 @@
 %% @doc
 %% Starts the server
 %%
-%% @spec start_link() -> {ok, Pid} | ignore | {error, Error}
+%% @spec start_link(Mod :: atom(), Opts :: term()) -> {ok, Pid} | ignore | {error, Error}
 %% @end
 %%--------------------------------------------------------------------
 start_link(Mod, Opts) ->
